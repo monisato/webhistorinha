@@ -7,9 +7,73 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .Capa {
-    animation: App-logo-spin infinite 20s linear;
+.MicContainer {
+  width: 80vmin;
+  height: 80vmin;
+  position: relative;
+  background: yellow;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation:
+}
+
+@keyframes Mic-jump {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-20deg);
+  }
+}
+
+.MicBraEsq {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: -1%;
+  left: -5%;
+
+  animation: Mic-wave infinite 1s ease alternate;
+}
+
+@keyframes Mic-wave {
+  from {
+    transform-origin: 70% 80%; 
+    transform: rotate(0deg);
+  }
+  to { 
+    transform-origin: 70% 80%; 
+    transform: rotate(20deg);
+  }
+}
+
+.MicOlho {
+  position: absolute;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 37%;
+  left: 29%;
+}
+
+
+@media (min-width: 360px) {
+  .MicGroupParts {
+    transform: scale(0.5, 0.5)
+  }
+}
+
+@media (min-width: 720px) {
+  .MicGroupParts {
+    transform: scale(0.8, 0.8)
   }
 }
 
@@ -24,15 +88,10 @@
   color: white;
 }
 
+
+
+/* partes da historinha */
 img.Fundo {
   height: 100vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

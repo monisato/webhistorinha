@@ -10,7 +10,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='./imgs/pg01.jpeg' className="Capa" alt="Capa" />
+        <div className="MicContainer">
+          <div className="MicGroupParts">
+            <img src='./imgs/mic_capa_mic.png' className="Microondas" alt="microondas" />
+            <img src='./imgs/mic_capa_mic_bra_esq.png' className="MicBraEsq" alt="microondas" />
+            <img src='./imgs/mic_capa_mic_olho.png' className="MicOlho" alt="microondas" />
+          </div>
+        </div>
         <p>
           Role a página para baixo para ler a historinha.
         </p>

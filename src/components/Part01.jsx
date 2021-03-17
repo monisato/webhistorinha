@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/Parts.css';
 
 class Part01 extends Component {
     render() { 
