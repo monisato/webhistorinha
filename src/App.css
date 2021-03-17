@@ -22,12 +22,14 @@
 
 @keyframes Mic-jump {
   from {
-    transform: translate(0, 0);
+    transform: translate(0, 0) scaleY(100%);
   }
   to {
-    transform: translate(0, 10%);
+    transform: translate(0, 10%) scaleY(98%);
   }
 }
+
+
 
 .MicBraEsq {
   position: absolute;
@@ -39,7 +41,7 @@
   top: -1%;
   left: -5%;
 
-  animation: Mic-wave infinite 1s ease-in-out alternate;
+  animation: Mic-wave infinite 0.3s ease-in-out alternate;
 }
 
 @keyframes Mic-wave {
