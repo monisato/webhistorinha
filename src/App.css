@@ -17,15 +17,15 @@
   justify-content: center;
   align-items: center;
 
-  animation:
+  animation: Mic-jump 1s infinite ease-in-out alternate;
 }
 
 @keyframes Mic-jump {
   from {
-    transform: rotate(0deg);
+    transform: translate(0, 0);
   }
   to {
-    transform: rotate(-20deg);
+    transform: translate(0, 10%);
   }
 }
 
@@ -39,7 +39,7 @@
   top: -1%;
   left: -5%;
 
-  animation: Mic-wave infinite 1s ease alternate;
+  animation: Mic-wave infinite 1s ease-in-out alternate;
 }
 
 @keyframes Mic-wave {
