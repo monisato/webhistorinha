@@ -9,9 +9,9 @@
 
 .MicContainer {
   width: 80vmin;
-  height: 80vmin;
+  height: 60vmin;
   position: relative;
-  background: yellow;
+  /* background: yellow; */
 
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@
   align-items: center;
   justify-content: center;
 
-  top: 37%;
+  top: 39%;
   left: 29%;
 }
 
