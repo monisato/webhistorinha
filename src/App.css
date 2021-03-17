@@ -11,7 +11,6 @@
   width: 80vmin;
   height: 60vmin;
   position: relative;
-  /* background: yellow; */
 
   display: flex;
   justify-content: center;
@@ -22,10 +21,10 @@
 
 @keyframes Mic-jump {
   from {
-    transform: translate(0, 0) scaleY(100%);
+    transform: translate(0, 0);
   }
   to {
-    transform: translate(0, 10%) scaleY(98%);
+    transform: translate(0, 10%);
   }
 }
 
