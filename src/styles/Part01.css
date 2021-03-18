@@ -1,0 +1,66 @@
+body {
+    background-color: #00143b;
+}
+
+.PartPage {
+    position: relative;
+}
+
+.FullImg {
+    position: relative;
+}
+
+.MarContainer {
+    position: absolute;
+
+    top: 13.5%;
+    left: 81.5%;
+}
+
+.MarOlho {
+    position: absolute;
+
+    top: 39%;
+    left: -156%;
+}
+
+.MicContainer {
+    position: absolute;
+
+    top: 53%;
+    left: 0%;
+}
+
+.MicContainer .MicOlho {
+    position: absolute;
+
+    top: 41%;
+    left: 29%;
+}
+
+.MicContainer .MicBraEsq {
+    position: absolute;
+
+    top: 2%;
+    left: -4%;
+}
+
+.TxtPage {
+    width: 50%;
+
+    color: rgb(159, 241, 255);
+    text-align: left;
+
+    position: absolute;
+    top: -10%;
+    left: 3%;
+
+    font-size: 7rem;
+    -webkit-text-stroke: 3px var(--brown);
+    text-shadow:
+       3px  3px 0 var(--brown),
+      -1px -1px 0 var(--brown),  
+       1px -1px 0 var(--brown),
+      -1px  1px 0 var(--brown),
+       1px  1px 0 var(--brown);
+}

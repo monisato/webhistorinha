@@ -1,0 +1,61 @@
+.MicContainer {
+  animation: Mic-jump 1s infinite ease-in-out alternate;
+}
+  
+@keyframes Mic-jump {
+  from {
+    transform: translate(0, 0) scale(1, 1);
+  }
+  to {
+    transform: translate(0, 10%) scale(1, 0.95);
+  }
+}
+
+.MicBraEsq {
+  animation: Mic-wave infinite 7s ease-in-out alternate;
+}
+  
+@keyframes Mic-wave {
+  0%, 7%, 13%, 40%, 60%, 67%, 73%, 80%, 100% {
+    transform-origin: 70% 80%; 
+    transform: rotate(0deg);
+  }
+  4%, 10%, 32%, 48%, 64%, 70%, 75%, 92% { 
+    transform-origin: 70% 80%; 
+    transform: rotate(20deg);
+  }
+}
+
+.MicOlho {
+  animation: Blink infinite 10s;
+}
+
+.MarOlho {
+  animation: Blink infinite 10s;
+  animation-delay: 1.5s;
+}
+  
+@keyframes Blink {
+  10%, 11%, 60%, 61%, 63%, 64%, 93%, 94%, 100% {
+    transform: scale(1, 1);
+  }
+  10.5%, 60.5%, 63.5%, 93.5% {
+    transform: scale(1, 0.2);
+  }
+}
+
+.MarBraDir {
+  animation: Mic-wave infinite 7s ease-in-out alternate;
+}
+
+@keyframes Mic-wave {
+  0%, 7%, 13%, 40%, 60%, 67%, 73%, 80%, 100% {
+    transform-origin: 45% 95%; 
+    transform: rotate(0deg);
+  }
+  4%, 10%, 32%, 48%, 64%, 70%, 75%, 92% { 
+    transform-origin: 45% 95%; 
+    transform: rotate(15deg);
+  }
+}
+

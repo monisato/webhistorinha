@@ -1,4 +1,5 @@
 import './App.css';
+import '../src/styles/Animations.css';
 import Part01 from './components/Part01';
 import Part02 from './components/Part02';
 import Part03 from './components/Part03';
