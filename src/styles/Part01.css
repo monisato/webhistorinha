@@ -20,7 +20,9 @@ body {
 .MarOlho {
     position: absolute;
 
-    top: 39%;
+    transform: rotate(-18.7deg);
+
+    top: 43%;
     left: -156%;
 }
 
@@ -46,16 +48,16 @@ body {
 }
 
 .TxtPage {
-    width: 50%;
+    width: 40%;
 
     color: rgb(159, 241, 255);
     text-align: left;
 
     position: absolute;
-    top: -10%;
+    top: 2%;
     left: 3%;
 
-    font-size: 7rem;
+    font-size: 6.5rem;
     -webkit-text-stroke: 3px var(--brown);
     text-shadow:
        3px  3px 0 var(--brown),

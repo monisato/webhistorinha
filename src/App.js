@@ -10,7 +10,7 @@ import Part06 from './components/Part06';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header Fundo">
         <div className="MicContainer">
           <div className="MicGroupParts">
             <img src='./imgs/mic_capa_mic.png' className="Microondas" alt="microondas" />

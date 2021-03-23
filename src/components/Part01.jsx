@@ -16,7 +16,7 @@ class Part01 extends Component {
                         <img className="MicOlho" src="./imgs/pg01_notxt_mic_olho.png" alt="Marcelo tem um microondas"/>
                         <img className="MicBraEsq" src="./imgs/pg01_notxt_mic_bra_esq.png" alt="Marcelo tem um microondas"/>
                     </div>
-                    <p className="TxtPage" idName="TxtPage01">Marcelo tem um microondas</p>
+                    <p className="TxtPage" idName="TxtPage01">Marcelo &#013;tem um &#013;microondas</p>
                 </div>
             </div>
         );
