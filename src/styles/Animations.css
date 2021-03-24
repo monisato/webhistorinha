@@ -45,6 +45,9 @@
 }
   
 @keyframes Mar-Blink {
+  0% {
+    transform: rotate(-18.7deg);
+  }
   10%, 11%, 60%, 61%, 63%, 64%, 93%, 94%, 100% {
     transform: rotate(-18.7deg) scale(1, 1);
   }
@@ -67,4 +70,64 @@
     transform: rotate(15deg);
   }
 }
+
+.MicOlhoP2 {
+  animation: Blink2 infinite 10s;
+}
+
+@keyframes Blink2 {
+  0% {
+    transform: rotate(-10.5deg);
+  }
+  10%, 11%, 60%, 61%, 63%, 64%, 93%, 94%, 100% {
+    transform: rotate(-10.5deg) scale(1, 1);
+  }
+  10.5%, 60.5%, 63.5%, 93.5% {
+    transform: rotate(-10.5deg) scale(1, 0.2);
+  }
+}
+
+.Balao {
+  animation: Boing infinite 1s alternate;
+}
+
+@keyframes Boing {
+  0% {
+    transform: scale(1,1);
+  }
+  100% {
+    transform: scale(1.2, 1.2) translate(-1rem, -1rem)
+  }
+}
+
+.Buraco {
+  animation: Breath infinite 1.5s alternate;
+}
+
+@keyframes Breath {
+  0% {
+    transform: scale(1, 1)
+  }
+  100% {
+    transform: scale(0.95, 0.95)
+  }
+}
+
+.MarOlhoP2 {
+  animation: Mar-Blink2 infinite 10s;
+}
+
+@keyframes Mar-Blink2 {
+  0% {
+    transform: rotate(-28.5deg);
+  }
+  10%, 11%, 60%, 61%, 63%, 64%, 93%, 94%, 100% {
+    transform: rotate(-28.5deg) scale(1, 1);
+  }
+  10.5%, 60.5%, 63.5%, 93.5% {
+    transform: rotate(-28.5deg) scale(1, 0.2);
+  }
+}
+
+
 

@@ -1,5 +1,4 @@
 html {
-  scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
 }
@@ -78,15 +77,9 @@ html {
 
 
 /* partes da historinha */
-
-/* .Parts {
-  display: flex;
-  flex-direction: column;
-
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-} */
+main {
+  background-color: #00143b;
+}
 
 .Fundo {
   scroll-snap-align: center;

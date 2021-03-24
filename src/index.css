@@ -12,17 +12,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.TxtPage {
+.Parts {
   font-family: 'Gochi Hand', san-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-size: 5rem;
-  -webkit-text-stroke: 3px var(--brown);
-  text-shadow:
-       3px  3px 0 var(--brown),
-      -1px -1px 0 var(--brown),  
-       1px -1px 0 var(--brown),
-      -1px  1px 0 var(--brown),
-       1px  1px 0 var(--brown);
 }

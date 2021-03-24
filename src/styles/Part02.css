@@ -1,0 +1,65 @@
+.PartPage {
+    position: relative;
+}
+
+.FullImg {
+    position: relative;
+}
+
+.MicPg2Parts {
+}
+
+.Balao {
+    position: absolute;
+
+    top: 15%;
+    left: 6%;
+}
+
+.MicOlhoP2 {
+    position: absolute;
+    
+    top: 70%;
+    left: 39%;
+}
+
+.Buraco {
+    position: absolute;
+    
+    top: 29%;
+    left: 28%;
+}
+
+.MarContainerP2 {
+    position: absolute;
+    
+    top: 33%;
+    left: 85%;
+}
+
+.TxtPage02 {
+    width: 100%;
+
+    color: rgb(245, 255, 159);
+    text-align: right;
+
+    position: absolute;
+    top: -7%;
+    right: 20%;
+
+    font-size: 6rem;
+    -webkit-text-stroke: 3px var(--brown);
+    text-shadow:
+       3px  3px 0 var(--brown),
+      -1px -1px 0 var(--brown),  
+       1px -1px 0 var(--brown),
+      -1px  1px 0 var(--brown),
+       1px  1px 0 var(--brown);
+}
+
+.Linha2 {
+    position: absolute;
+
+    top: 75%;
+}
+
