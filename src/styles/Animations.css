@@ -39,6 +39,8 @@
   }
 }
 
+/* Pagina 01 */
+
 .MarOlho {
   animation: Mar-Blink infinite 10s;
   animation-delay: 1.5s;
@@ -70,6 +72,8 @@
     transform: rotate(15deg);
   }
 }
+
+/* Pagina 02 */
 
 .MicOlhoP2 {
   animation: Blink2 infinite 10s;
@@ -107,10 +111,10 @@
 
 @keyframes Breath {
   0% {
-    transform: scale(1, 1)
+    transform: scale(1, 1);
   }
   100% {
-    transform: scale(0.95, 0.95)
+    transform: scale(0.95, 0.95);
   }
 }
 
@@ -130,5 +134,64 @@
   }
 }
 
+/* Pagina 03 */
 
+.MaeOlho {
+  animation: Mae-Blink infinite 10s;
+}
 
+@keyframes Mae-Blink {
+  0% {
+    transform: rotate(-21.4deg);
+  }
+  10%, 11%, 60%, 61%, 63%, 64%, 93%, 94%, 100% {
+    transform: rotate(-21.4deg) scale(1, 1);
+  }
+  10.5%, 60.5%, 63.5%, 93.5% {
+    transform: rotate(-21.4deg) scale(1, 0.2);
+  }
+}
+
+.MaeBoca {
+  animation: Mae-Talk infinite 2s;
+}
+
+@keyframes Mae-Talk {
+  0% {
+    transform: rotate(-24deg);
+  }
+  10%, 20%, 60%, 70%, 72%, 82%, 93%, 100% {
+    transform: rotate(-24deg) scale(1, 1);
+  }
+  15%, 65%, 77%, 98% {
+    transform: rotate(-24deg) scale(1, 0.7);
+  }
+}
+
+.MicBoca {
+  animation: Cry infinite 8s alternate;
+}
+
+@keyframes Cry {
+  0%, 60%, 85% {
+    transform: scale(1, 1);
+  }
+  20%, 65%, 95% {
+    transform: translate(-1rem, -1rem) scale(0.8, 0.8);
+  }
+}
+
+.Cara1, .Cara2 {
+  animation: Angry infinite 1s alternate;
+}
+
+@keyframes Angry {
+  0% {
+    transform: scale(1,1);
+  }
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+/* Pagina 04 */
