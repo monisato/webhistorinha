@@ -73,6 +73,7 @@
 
 .MicOlhoP2 {
   animation: Blink2 infinite 10s;
+  animation-delay: 1s;
 }
 
 @keyframes Blink2 {

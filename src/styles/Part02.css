@@ -37,6 +37,10 @@
     left: 85%;
 }
 
+.MarOlhoP2 {
+    transform: rotate(-10.5deg);
+}
+
 .TxtPage02 {
     width: 100%;
 
