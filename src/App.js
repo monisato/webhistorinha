@@ -31,7 +31,7 @@ function App() {
         <Part06/>
       </main>
       <footer>
-        <p>Esta página e animações foram desenvolvidas por <a href="https://github.com/monisato" target="_blank">Mônica Sato.</a></p>
+        <p>Esta página e animações foram desenvolvidas por <a href="https://github.com/monisato" target="_blank" rel="author noreferrer">Mônica Sato.</a></p>
         <p>História e Ilustração por Marcel Mori.</p>
       </footer>
     </div>
