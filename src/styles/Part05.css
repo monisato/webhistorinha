@@ -1,0 +1,48 @@
+.PartPage {
+    position: relative;
+}
+
+.FullImg {
+    position: relative;
+}
+
+.MenBoca {
+    position: absolute;
+
+    top: 57.5%;
+    left: 23%;
+}
+
+.MenMao {
+    position: absolute;
+
+    top: 67.5%;
+    left: 57%;
+}
+
+.MenOlho {
+    position: absolute;
+
+    top: 35.5%;
+    left: 20%;
+}
+
+.TxtPage05 {
+    width: 40%;
+
+    color: rgb(219, 178, 224);
+    text-align: center;
+
+    position: absolute;
+    top: 5%;
+    left: 58%;
+
+    font-size: 6rem;
+    -webkit-text-stroke: 3px var(--brown);
+    text-shadow:
+       3px  3px 0 var(--brown),
+      -1px -1px 0 var(--brown),  
+       1px -1px 0 var(--brown),
+      -1px  1px 0 var(--brown),
+       1px  1px 0 var(--brown);
+}

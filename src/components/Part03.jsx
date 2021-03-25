@@ -12,7 +12,7 @@ class Part03 extends Component {
                     <img className="MicBoca" src="./imgs/pg03_notxt_mic_boca.png" alt="sua mãe e amigos falavam: -Essa coisa está quebrada!"/>
                     <img className="Cara1" src="./imgs/pg03_notxt_cara1.png" alt="sua mãe e amigos falavam: -Essa coisa está quebrada!"/>
                     <img className="Cara2" src="./imgs/pg03_notxt_cara2.png" alt="sua mãe e amigos falavam: -Essa coisa está quebrada!"/>
-                    <p className="TxtPage03">sua mãe e amigos falavam: &#013;-Essa coisa está quebrada!</p>
+                    <p className="TxtPage03">Sua mãe e amigos falavam: &#013;-Essa coisa está quebrada!</p>
                 </div>
             </div>
         );

@@ -1,0 +1,62 @@
+.PartPage {
+    position: relative;
+}
+
+.FullImg {
+    position: relative;
+}
+
+.MarOlho4 {
+    position: absolute;
+
+    top: 41.6%;
+    left: 19.3%;
+}
+
+.Mic4 {
+    position: absolute;
+
+    top: 54%;
+    left: 42%;
+}
+
+.PocDirEmb {
+    position: absolute;
+
+    top: 43%;
+    left: 80%;
+}
+
+.PocDirEmc {
+    position: absolute;
+
+    top: 25%;
+    left: 80%;
+}
+
+.PocEsq {
+    position: absolute;
+
+    top: 50%;
+    left: 40%;
+}
+
+.TxtPage04 {
+    width: 70%;
+
+    color: rgb(116, 199, 116);
+    text-align: left;
+
+    position: absolute;
+    top: -5%;
+    left: 5%;
+
+    font-size: 5.3rem;
+    -webkit-text-stroke: 3px var(--brown);
+    text-shadow:
+       3px  3px 0 var(--brown),
+      -1px -1px 0 var(--brown),  
+       1px -1px 0 var(--brown),
+      -1px  1px 0 var(--brown),
+       1px  1px 0 var(--brown);
+}

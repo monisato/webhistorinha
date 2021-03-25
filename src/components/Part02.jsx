@@ -11,7 +11,7 @@ class Part02 extends Component {
                     <img className="Balao" src="./imgs/pg02_notxt_balao.png" alt="mas um microondas diferente, ele tem um buraco!"/>
                     <img className="MicOlhoP2" src="./imgs/pg02_notxt_mic_olho.png" alt="mas um microondas diferente, ele tem um buraco!"/>
                     <img className="Buraco" src="./imgs/pg02_notxt_buraco.png" alt="mas um microondas diferente, ele tem um buraco!"/>
-                    <p className="TxtPage02">mas um microondas &#013;diferente</p>
+                    <p className="TxtPage02">Mas um microondas &#013;diferente</p>
                     <p className="TxtPage02 Linha2">ele tem um buraco!</p>
                 </div>
             </div>

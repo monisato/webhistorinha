@@ -3,8 +3,11 @@ html {
   scroll-snap-type: y mandatory;
 }
 
-.App-header {
+body {
   background-color: #00143b;
+}
+
+.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -77,9 +80,6 @@ html {
 
 
 /* partes da historinha */
-main {
-  background-color: #00143b;
-}
 
 .Fundo {
   scroll-snap-align: center;
@@ -93,3 +93,27 @@ main {
   align-items: center;
 }
 
+footer {
+  scroll-snap-align: center;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color:rgb(255, 137, 137);
+}
+
+a:hover {
+  color:rgb(206, 72, 72);
+}
+
+a:active {
+  color: rgb(139, 0, 0);
+}
