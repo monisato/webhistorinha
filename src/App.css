@@ -102,6 +102,8 @@ footer {
   justify-content: center;
   flex-direction: column;
 
+  text-align: center;
+
   color: rgba(255, 255, 255, 0.5);
 }
 
